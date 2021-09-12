@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 section {
@@ -22,17 +23,28 @@ ul {
   color: #000;
   justify-content: center;
   align-items: flex-start;
+  list-style-type: none;
+  flex-direction: column;
+  margin: 0;
 }
 
 h2 {
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: .5rem 1rem .6rem;
 }
 
 img {
   width: 5rem;
+  margin: 1.5rem;
+  padding: 0;
 }
 
-h3 {
-
+a {
+  background-color: #444;
+  color: #ccc;
+  text-decoration: none;
+  padding: .5rem 1rem .6rem;
+  border-radius: 8px;
 }
