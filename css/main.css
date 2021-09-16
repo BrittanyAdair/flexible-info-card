@@ -29,7 +29,7 @@ ul > li {
   justify-content: space-between;
   align-items: center;
   margin: 0;
-  padding-right: 15rem;
+  padding-right: 2rem;
 }
 
 h2 {
@@ -60,7 +60,7 @@ img {
 
 a {
   background-color: #444;
-  color: #ccc;
+  color: white;
   text-decoration: none;
   padding: .5rem 1rem .6rem;
   width: 7rem;
